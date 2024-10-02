@@ -56,9 +56,9 @@ sphinx_gallery_conf = {
         "notebook_modification_function": f"{util_root}.notebook_modification_function",
     },
     "examples_dirs": [
+        "../examples_rst_index",
         "../examples/",
         "../examples_with_rst/",
-        "../examples_rst_index",
         "../examples_README_header",
     ],
     "example_extensions": {".py", ".cpp", ".m", ".jl"},
@@ -66,9 +66,9 @@ sphinx_gallery_conf = {
     "reset_argv": f"{util_root}.reset_argv",
     "reset_modules": (f"{util_root}.mock_scrape_problem", "matplotlib"),
     "gallery_dirs": [
+        "auto_examples_rst_index",
         "auto_examples",
         "auto_examples_with_rst",
-        "auto_examples_rst_index",
         "auto_examples_README_header",
     ],
     "backreferences_dir": "gen_modules/backreferences",
