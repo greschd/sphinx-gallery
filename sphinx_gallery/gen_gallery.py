@@ -761,6 +761,8 @@ def generate_gallery_rst(app):
             if len(this_toctree_items) > 0:
                 this_toctree = _format_toctree(this_toctree_items)
                 indexst += this_toctree
+        else:
+            indexst = ""
 
         # list all paths to subsection index files in this array
         subsection_index_files = []
